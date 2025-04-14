@@ -1,0 +1,16 @@
+C:\Users\Hi-Tech\source\repos\WinFormsApp010\WinFormsApp010\bin\Debug\net8.0-windows\WinFormsApp010.exe
+C:\Users\Hi-Tech\source\repos\WinFormsApp010\WinFormsApp010\bin\Debug\net8.0-windows\WinFormsApp010.deps.json
+C:\Users\Hi-Tech\source\repos\WinFormsApp010\WinFormsApp010\bin\Debug\net8.0-windows\WinFormsApp010.runtimeconfig.json
+C:\Users\Hi-Tech\source\repos\WinFormsApp010\WinFormsApp010\bin\Debug\net8.0-windows\WinFormsApp010.dll
+C:\Users\Hi-Tech\source\repos\WinFormsApp010\WinFormsApp010\bin\Debug\net8.0-windows\WinFormsApp010.pdb
+C:\Users\Hi-Tech\source\repos\WinFormsApp010\WinFormsApp010\obj\Debug\net8.0-windows\WinFormsApp010.Form1.resources
+C:\Users\Hi-Tech\source\repos\WinFormsApp010\WinFormsApp010\obj\Debug\net8.0-windows\WinFormsApp010.csproj.GenerateResource.cache
+C:\Users\Hi-Tech\source\repos\WinFormsApp010\WinFormsApp010\obj\Debug\net8.0-windows\WinFormsApp010.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hi-Tech\source\repos\WinFormsApp010\WinFormsApp010\obj\Debug\net8.0-windows\WinFormsApp010.AssemblyInfoInputs.cache
+C:\Users\Hi-Tech\source\repos\WinFormsApp010\WinFormsApp010\obj\Debug\net8.0-windows\WinFormsApp010.AssemblyInfo.cs
+C:\Users\Hi-Tech\source\repos\WinFormsApp010\WinFormsApp010\obj\Debug\net8.0-windows\WinFormsApp010.csproj.CoreCompileInputs.cache
+C:\Users\Hi-Tech\source\repos\WinFormsApp010\WinFormsApp010\obj\Debug\net8.0-windows\WinFormsApp010.dll
+C:\Users\Hi-Tech\source\repos\WinFormsApp010\WinFormsApp010\obj\Debug\net8.0-windows\refint\WinFormsApp010.dll
+C:\Users\Hi-Tech\source\repos\WinFormsApp010\WinFormsApp010\obj\Debug\net8.0-windows\WinFormsApp010.pdb
+C:\Users\Hi-Tech\source\repos\WinFormsApp010\WinFormsApp010\obj\Debug\net8.0-windows\WinFormsApp010.genruntimeconfig.cache
+C:\Users\Hi-Tech\source\repos\WinFormsApp010\WinFormsApp010\obj\Debug\net8.0-windows\ref\WinFormsApp010.dll
