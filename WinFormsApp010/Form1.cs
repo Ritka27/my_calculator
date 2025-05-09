@@ -130,6 +130,22 @@ namespace WinFormsApp010
                 // Добавляем * перед √, если перед ним стоит число или скобка
                 expression = Regex.Replace(expression, @"(\d|\)|\.)√", "$1*√");
 
+                /// Обработка корня квадратного √(...) с использованием match =>
+                expression = Regex.Replace(expression, @"√\(([^()]+)\)", match =>
+                {
+                    string inside = match.Groups[1].Value;
+
+                    // Вычисляем значение внутри скобок с приведением к double
+                    double value = Convert.ToDouble(new DataTable().Compute(inside, ""), CultureInfo.InvariantCulture);
+
+                    // Находим квадратный корень
+                    double sqrtResult = Math.Sqrt(value);
+
+                    // Возвращаем результат как строку с инвариантной культурой
+                    return sqrtResult.ToString(CultureInfo.InvariantCulture);
+                });
+
+
                 while (index != -1)
                 {
                     int start = index + 1;
