@@ -145,28 +145,6 @@ namespace WinFormsApp010
                     return sqrtResult.ToString(CultureInfo.InvariantCulture);
                 });
 
-
-                while (index != -1)
-                {
-                    int start = index + 1;
-                    string numberStr = "";
-
-                    while (start < expression.Length && (char.IsDigit(expression[start]) || expression[start] == '.'))
-                    {
-                        numberStr += expression[start];
-                        start++;
-                    }
-
-                    if (!string.IsNullOrEmpty(numberStr))
-                    {
-                        double number = Convert.ToDouble(numberStr, CultureInfo.InvariantCulture);
-                        double res = Math.Sqrt(number);
-                        expression = expression.Substring(0, index) + res.ToString(CultureInfo.InvariantCulture) + expression.Substring(start);
-                    }
-
-                    index = expression.IndexOf("√", index + 1);
-                }
-
                 // Обработка степени ^
                 int i = expression.IndexOf("^");
                 while (i != -1)
@@ -213,16 +191,16 @@ namespace WinFormsApp010
                     // Если переполнение — добавляем .0 к длинным числам
                     string safeExpression = Regex.Replace(expression, @"\b\d{10,}\b", m => m.Value + ".0");
                     resultStr = dt.Compute(safeExpression, null).ToString();
+                    double result = Convert.ToDouble(resultStr, CultureInfo.InvariantCulture);
                 }
 
 
                 // Если результат недопустим — кидаем исключение
                 if (resultStr == "∞" || resultStr == "Infinity" || resultStr == "-Infinity" || resultStr == "NaN")
                 {
-                    throw new DivideByZeroException(); 
+                    throw new DivideByZeroException();
                 }
-                double result = Convert.ToDouble(resultStr, CultureInfo.InvariantCulture);
-                textBox1.Text = result.ToString(CultureInfo.InvariantCulture);
+                textBox1.Text = resultStr.ToString(CultureInfo.InvariantCulture);
 
             }
             catch (DivideByZeroException)
@@ -294,7 +272,7 @@ namespace WinFormsApp010
                 buttonCalculate_Click(sender, e);
             }
 
-            
+
         }
     }
 }
