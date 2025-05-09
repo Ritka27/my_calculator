@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Hi-Tech\\source\\repos\\WinFormsApp010\\WinFormsApp010\\WinFormsApp010.csproj",
+      "projectUniqueName": "C:\\Users\\Hi-Tech\\source\\repos\\WinFormsAppCalcul\\WinFormsApp010\\WinFormsApp010.csproj",
       "projectName": "WinFormsApp010",
-      "projectPath": "C:\\Users\\Hi-Tech\\source\\repos\\WinFormsApp010\\WinFormsApp010\\WinFormsApp010.csproj",
+      "projectPath": "C:\\Users\\Hi-Tech\\source\\repos\\WinFormsAppCalcul\\WinFormsApp010\\WinFormsApp010.csproj",
       "packagesPath": "C:\\Users\\Hi-Tech\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Hi-Tech\\source\\repos\\WinFormsApp010\\WinFormsApp010\\obj\\",
+      "outputPath": "C:\\Users\\Hi-Tech\\source\\repos\\WinFormsAppCalcul\\WinFormsApp010\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

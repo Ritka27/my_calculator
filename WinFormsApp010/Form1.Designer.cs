@@ -64,6 +64,8 @@
             textBox1.Size = new Size(270, 72);
             textBox1.TabIndex = 0;
             textBox1.TextChanged += textBox1_TextChanged;
+            textBox1.KeyDown += textBox1_KeyDown;
+            textBox1.KeyPress += textBox1_KeyPress;
             textBox1.Resize += textBox1_Resize;
             // 
             // plus
@@ -124,7 +126,7 @@
             button17.TabIndex = 17;
             button17.Text = "=";
             button17.UseVisualStyleBackColor = false;
-            button17.Click += button17_Click;
+            button17.Click += buttonCalculate_Click;
             // 
             // button18
             // 
@@ -160,7 +162,7 @@
             button20.TabIndex = 23;
             button20.Text = "%";
             button20.UseVisualStyleBackColor = false;
-            button20.Click += button11_DockChanged;
+            button20.Click += DivideLastBy100;
             // 
             // button21
             // 
@@ -184,7 +186,7 @@
             button22.TabIndex = 21;
             button22.Text = "x²";
             button22.UseVisualStyleBackColor = false;
-            button22.Click += button22_Click;
+            button22.Click += buttonPower_Click;
             // 
             // button23
             // 
@@ -220,7 +222,7 @@
             button11.TabIndex = 34;
             button11.Text = "<<";
             button11.UseVisualStyleBackColor = false;
-            button11.Click += button11_Click;
+            button11.Click += buttonBackspace;
             // 
             // button12
             // 
@@ -232,7 +234,7 @@
             button12.TabIndex = 33;
             button12.Text = "C";
             button12.UseVisualStyleBackColor = false;
-            button12.Click += button12_Click;
+            button12.Click += buttonClear_Click;
             // 
             // button7
             // 

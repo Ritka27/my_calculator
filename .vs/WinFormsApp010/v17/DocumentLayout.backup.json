@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Hi-Tech\\source\\repos\\WinFormsApp010\\",
+  "WorkspaceRootPath": "C:\\Users\\Hi-Tech\\source\\repos\\WinFormsAppCalcul\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{64508572-F014-4516-85DB-3C58AD5281F6}|WinFormsApp010\\WinFormsApp010.csproj|c:\\users\\hi-tech\\source\\repos\\winformsapp010\\winformsapp010\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{64508572-F014-4516-85DB-3C58AD5281F6}|WinFormsApp010\\WinFormsApp010.csproj|c:\\users\\hi-tech\\source\\repos\\winformsappcalcul\\winformsapp010\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{64508572-F014-4516-85DB-3C58AD5281F6}|WinFormsApp010\\WinFormsApp010.csproj|solutionrelative:winformsapp010\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{64508572-F014-4516-85DB-3C58AD5281F6}|WinFormsApp010\\WinFormsApp010.csproj|C:\\Users\\Hi-Tech\\source\\repos\\WinFormsApp010\\winformsapp010\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{64508572-F014-4516-85DB-3C58AD5281F6}|WinFormsApp010\\WinFormsApp010.csproj|C:\\Users\\Hi-Tech\\source\\repos\\WinFormsAppCalcul\\winformsapp010\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{64508572-F014-4516-85DB-3C58AD5281F6}|WinFormsApp010\\WinFormsApp010.csproj|solutionrelative:winformsapp010\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -33,24 +33,24 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "C:\\Users\\Hi-Tech\\source\\repos\\WinFormsApp010\\WinFormsApp010\\Form1.cs",
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Hi-Tech\\source\\repos\\WinFormsAppCalcul\\WinFormsApp010\\Form1.cs",
               "RelativeDocumentMoniker": "WinFormsApp010\\Form1.cs",
-              "ToolTip": "C:\\Users\\Hi-Tech\\source\\repos\\WinFormsApp010\\WinFormsApp010\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]*",
-              "RelativeToolTip": "WinFormsApp010\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]*",
+              "ToolTip": "C:\\Users\\Hi-Tech\\source\\repos\\WinFormsAppCalcul\\WinFormsApp010\\Form1.cs [Design]",
+              "RelativeToolTip": "WinFormsApp010\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-31T16:18:55.76Z",
-              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\Hi-Tech\\source\\repos\\WinFormsApp010\\WinFormsApp010\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Hi-Tech\\source\\repos\\WinFormsAppCalcul\\WinFormsApp010\\Form1.cs",
               "RelativeDocumentMoniker": "WinFormsApp010\\Form1.cs",
-              "ToolTip": "C:\\Users\\Hi-Tech\\source\\repos\\WinFormsApp010\\WinFormsApp010\\Form1.cs*",
-              "RelativeToolTip": "WinFormsApp010\\Form1.cs*",
-              "ViewState": "AgIAAIoAAAAAAAAAAAAkwJcAAAAkAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Hi-Tech\\source\\repos\\WinFormsAppCalcul\\WinFormsApp010\\Form1.cs",
+              "RelativeToolTip": "WinFormsApp010\\Form1.cs",
+              "ViewState": "AgIAAMUAAAAAAAAAAAAcwNsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-31T16:02:17.128Z",
               "EditorCaption": ""
